@@ -9,5 +9,5 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
-    - run: npm jest
+    - run: npm test
     - run: node src/index.js
