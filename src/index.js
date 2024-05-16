@@ -2,4 +2,11 @@ const soma = (a, b) => {
   return a + b;
 }
 
-module.exports = soma;
+const subtracao = (a, b) => {
+  return a - b;
+}
+
+module.exports = {
+  soma,
+  subtracao
+}
