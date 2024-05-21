@@ -5,6 +5,6 @@ describe('index', () => {
         expect(soma(2,2)).toBe(4)
     })
     it('should pass', () => {
-        expect(subtracao(2,2)).toBe(1)
+        expect(subtracao(2,2)).toBe(0)
     })
 })
